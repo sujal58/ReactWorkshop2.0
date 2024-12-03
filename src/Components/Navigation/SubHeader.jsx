@@ -43,25 +43,25 @@ function SubHeader() {
               })}
             </div>
             <div className="relative flex items-center">
-              <div className="border-2 border-gray-300 rounded-md">
+              <div className="border-[1px] border-gray-300 rounded-lg">
                 <input
                   type="search"
                   name="search"
                   placeholder="Search"
-                  className="text-left text-sm font-semibold text-md py-2 pl-10 w-full"
+                  className="text-left text-md font-semibold py-2 pl-12 w-full"
                 />
               </div>
-              <div className="absolute text-gray-500 left-4 text-sm">
+              <div className="absolute text-gray-600 left-4 text-sm">
                 <FaSearch />
               </div>
             </div>
           </div>
-          <div className="font-bold">
-            <button className="w-fit h-fit capitalize text-primary bg-none px-5">
-              Register
+          <div className="font-semibold flex items-center gap-5">
+            <button className="w-fit h-fit capitalize text-primary bg-opacity-20 bg-none px-5 tracking-wide">
+              REGISTER
             </button>
-            <button className="w-fit h-fit bg-primary bg-opacity-25 px-7 py-2 text-primary rounded">
-              Login
+            <button className="w-fit h-fit bg-primary bg-opacity-25 px-7 py-[9px] text-primary rounded tracking-wide">
+              LOGIN
             </button>
           </div>
         </div>
