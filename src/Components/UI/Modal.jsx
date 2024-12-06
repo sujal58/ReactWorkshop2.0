@@ -1,6 +1,6 @@
 import React from "react";
 
-function Modal({ isactive, setIsActive, children }) {
+function Modal({ isactive, setIsActive, children, setIsLogin }) {
   console.log(isactive);
   return (
     <div className="relative">
